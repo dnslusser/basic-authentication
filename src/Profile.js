@@ -10,7 +10,7 @@ import { Auth } from 'aws-amplify';
 import { 
     withAuthenticator
     , AmplifySignOut 
-} from '@aws-amplify/ui-react';
+} from '@aws-amplify/ui-react/legacy';
 
 import Container from './Container';
 
