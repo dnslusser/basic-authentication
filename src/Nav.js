@@ -4,7 +4,8 @@ import { Menu } from 'antd';
 import { 
     HomeOutlined
     , ProfileOutlined
-    , FileProtectOutlined 
+    , FileProtectOutlined
+    , IdcardOutlined
 } from '@ant-design/icons';
 
 const Nav = ({current}) => {
@@ -39,6 +40,15 @@ const Nav = ({current}) => {
             to='/protected'
           >
             <FileProtectOutlined />Protected
+          </Link>
+        </Menu.Item>
+        <Menu.Item
+          key='morePublic'
+        >
+          <Link
+            to='/morepublic'
+          >
+          <IdcardOutlined /> More Public
           </Link>
         </Menu.Item>
       </Menu>
